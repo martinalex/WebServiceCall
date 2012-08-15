@@ -1,0 +1,286 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A38E035115DC317000537E55 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38E035015DC317000537E55 /* UIKit.framework */; };
+		A38E035315DC317000537E55 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38E035215DC317000537E55 /* Foundation.framework */; };
+		A38E035515DC317000537E55 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A38E035415DC317000537E55 /* CoreGraphics.framework */; };
+		A38E035B15DC317000537E55 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = A38E035915DC317000537E55 /* InfoPlist.strings */; };
+		A38E035D15DC317000537E55 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E035C15DC317000537E55 /* main.m */; };
+		A38E036115DC317000537E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E036015DC317000537E55 /* AppDelegate.m */; };
+		A38E036415DC317000537E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E036315DC317000537E55 /* ViewController.m */; };
+		A38E036715DC317000537E55 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38E036515DC317000537E55 /* ViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A38E034C15DC317000537E55 /* WebServiceCall.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WebServiceCall.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A38E035015DC317000537E55 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		A38E035215DC317000537E55 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		A38E035415DC317000537E55 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		A38E035815DC317000537E55 /* WebServiceCall-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "WebServiceCall-Info.plist"; sourceTree = "<group>"; };
+		A38E035A15DC317000537E55 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		A38E035C15DC317000537E55 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A38E035E15DC317000537E55 /* WebServiceCall-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WebServiceCall-Prefix.pch"; sourceTree = "<group>"; };
+		A38E035F15DC317000537E55 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A38E036015DC317000537E55 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A38E036215DC317000537E55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A38E036315DC317000537E55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A38E036615DC317000537E55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A38E034915DC317000537E55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38E035115DC317000537E55 /* UIKit.framework in Frameworks */,
+				A38E035315DC317000537E55 /* Foundation.framework in Frameworks */,
+				A38E035515DC317000537E55 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A38E034115DC317000537E55 = {
+			isa = PBXGroup;
+			children = (
+				A38E035615DC317000537E55 /* WebServiceCall */,
+				A38E034F15DC317000537E55 /* Frameworks */,
+				A38E034D15DC317000537E55 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A38E034D15DC317000537E55 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A38E034C15DC317000537E55 /* WebServiceCall.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A38E034F15DC317000537E55 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A38E035015DC317000537E55 /* UIKit.framework */,
+				A38E035215DC317000537E55 /* Foundation.framework */,
+				A38E035415DC317000537E55 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A38E035615DC317000537E55 /* WebServiceCall */ = {
+			isa = PBXGroup;
+			children = (
+				A38E035F15DC317000537E55 /* AppDelegate.h */,
+				A38E036015DC317000537E55 /* AppDelegate.m */,
+				A38E036215DC317000537E55 /* ViewController.h */,
+				A38E036315DC317000537E55 /* ViewController.m */,
+				A38E036515DC317000537E55 /* ViewController.xib */,
+				A38E035715DC317000537E55 /* Supporting Files */,
+			);
+			path = WebServiceCall;
+			sourceTree = "<group>";
+		};
+		A38E035715DC317000537E55 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A38E035815DC317000537E55 /* WebServiceCall-Info.plist */,
+				A38E035915DC317000537E55 /* InfoPlist.strings */,
+				A38E035C15DC317000537E55 /* main.m */,
+				A38E035E15DC317000537E55 /* WebServiceCall-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A38E034B15DC317000537E55 /* WebServiceCall */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A38E036A15DC317000537E55 /* Build configuration list for PBXNativeTarget "WebServiceCall" */;
+			buildPhases = (
+				A38E034815DC317000537E55 /* Sources */,
+				A38E034915DC317000537E55 /* Frameworks */,
+				A38E034A15DC317000537E55 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WebServiceCall;
+			productName = WebServiceCall;
+			productReference = A38E034C15DC317000537E55 /* WebServiceCall.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A38E034315DC317000537E55 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0440;
+				ORGANIZATIONNAME = "Martin Rosas";
+			};
+			buildConfigurationList = A38E034615DC317000537E55 /* Build configuration list for PBXProject "WebServiceCall" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A38E034115DC317000537E55;
+			productRefGroup = A38E034D15DC317000537E55 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A38E034B15DC317000537E55 /* WebServiceCall */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A38E034A15DC317000537E55 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38E035B15DC317000537E55 /* InfoPlist.strings in Resources */,
+				A38E036715DC317000537E55 /* ViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A38E034815DC317000537E55 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A38E035D15DC317000537E55 /* main.m in Sources */,
+				A38E036115DC317000537E55 /* AppDelegate.m in Sources */,
+				A38E036415DC317000537E55 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A38E035915DC317000537E55 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38E035A15DC317000537E55 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		A38E036515DC317000537E55 /* ViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A38E036615DC317000537E55 /* en */,
+			);
+			name = ViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A38E036815DC317000537E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A38E036915DC317000537E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A38E036B15DC317000537E55 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServiceCall/WebServiceCall-Prefix.pch";
+				INFOPLIST_FILE = "WebServiceCall/WebServiceCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		A38E036C15DC317000537E55 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WebServiceCall/WebServiceCall-Prefix.pch";
+				INFOPLIST_FILE = "WebServiceCall/WebServiceCall-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A38E034615DC317000537E55 /* Build configuration list for PBXProject "WebServiceCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38E036815DC317000537E55 /* Debug */,
+				A38E036915DC317000537E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A38E036A15DC317000537E55 /* Build configuration list for PBXNativeTarget "WebServiceCall" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A38E036B15DC317000537E55 /* Debug */,
+				A38E036C15DC317000537E55 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A38E034315DC317000537E55 /* Project object */;
+}
