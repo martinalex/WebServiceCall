@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface ViewController : UIViewController <UITableViewDataSource, UITableViewDelegate>{
+
+}
+
+@property (weak, nonatomic) IBOutlet UITableView *rideTableView;
+@property (strong, nonatomic) NSMutableArray *rideIds;
+@property (strong, nonatomic) NSMutableArray *rideNames;
 
 @end
+
+
+
+
+
+
+
+
+
+

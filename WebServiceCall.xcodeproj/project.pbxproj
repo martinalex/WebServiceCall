@@ -15,6 +15,11 @@
 		A38E036115DC317000537E55 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E036015DC317000537E55 /* AppDelegate.m */; };
 		A38E036415DC317000537E55 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E036315DC317000537E55 /* ViewController.m */; };
 		A38E036715DC317000537E55 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = A38E036515DC317000537E55 /* ViewController.xib */; };
+		A38E039B15DFD8DB00537E55 /* Ride.m in Sources */ = {isa = PBXBuildFile; fileRef = A38E039A15DFD8DB00537E55 /* Ride.m */; };
+		A3FE991715E1871700CDC313 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FE991615E1871700CDC313 /* Default.png */; };
+		A3FE991915E189C400CDC313 /* Dolomiti-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FE991815E189C400CDC313 /* Dolomiti-Icon.png */; };
+		A3FE991B15E189DF00CDC313 /* Dolomiti-Icon.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FE991A15E189DF00CDC313 /* Dolomiti-Icon.png */; };
+		A3FE991F15E1931900CDC313 /* Dolomiti 320 by 480.png in Resources */ = {isa = PBXBuildFile; fileRef = A3FE991E15E1931900CDC313 /* Dolomiti 320 by 480.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +36,12 @@
 		A38E036215DC317000537E55 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A38E036315DC317000537E55 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A38E036615DC317000537E55 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		A38E039915DFD8DB00537E55 /* Ride.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Ride.h; sourceTree = "<group>"; };
+		A38E039A15DFD8DB00537E55 /* Ride.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Ride.m; sourceTree = "<group>"; };
+		A3FE991615E1871700CDC313 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		A3FE991815E189C400CDC313 /* Dolomiti-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dolomiti-Icon.png"; sourceTree = "<group>"; };
+		A3FE991A15E189DF00CDC313 /* Dolomiti-Icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dolomiti-Icon.png"; sourceTree = "<group>"; };
+		A3FE991E15E1931900CDC313 /* Dolomiti 320 by 480.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Dolomiti 320 by 480.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +61,8 @@
 		A38E034115DC317000537E55 = {
 			isa = PBXGroup;
 			children = (
+				A3FE991A15E189DF00CDC313 /* Dolomiti-Icon.png */,
+				A3FE991615E1871700CDC313 /* Default.png */,
 				A38E035615DC317000537E55 /* WebServiceCall */,
 				A38E034F15DC317000537E55 /* Frameworks */,
 				A38E034D15DC317000537E55 /* Products */,
@@ -82,6 +95,8 @@
 				A38E036215DC317000537E55 /* ViewController.h */,
 				A38E036315DC317000537E55 /* ViewController.m */,
 				A38E036515DC317000537E55 /* ViewController.xib */,
+				A38E039915DFD8DB00537E55 /* Ride.h */,
+				A38E039A15DFD8DB00537E55 /* Ride.m */,
 				A38E035715DC317000537E55 /* Supporting Files */,
 			);
 			path = WebServiceCall;
@@ -94,6 +109,8 @@
 				A38E035915DC317000537E55 /* InfoPlist.strings */,
 				A38E035C15DC317000537E55 /* main.m */,
 				A38E035E15DC317000537E55 /* WebServiceCall-Prefix.pch */,
+				A3FE991815E189C400CDC313 /* Dolomiti-Icon.png */,
+				A3FE991E15E1931900CDC313 /* Dolomiti 320 by 480.png */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -151,6 +168,10 @@
 			files = (
 				A38E035B15DC317000537E55 /* InfoPlist.strings in Resources */,
 				A38E036715DC317000537E55 /* ViewController.xib in Resources */,
+				A3FE991715E1871700CDC313 /* Default.png in Resources */,
+				A3FE991915E189C400CDC313 /* Dolomiti-Icon.png in Resources */,
+				A3FE991B15E189DF00CDC313 /* Dolomiti-Icon.png in Resources */,
+				A3FE991F15E1931900CDC313 /* Dolomiti 320 by 480.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -164,6 +185,7 @@
 				A38E035D15DC317000537E55 /* main.m in Sources */,
 				A38E036115DC317000537E55 /* AppDelegate.m in Sources */,
 				A38E036415DC317000537E55 /* ViewController.m in Sources */,
+				A38E039B15DFD8DB00537E55 /* Ride.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +301,7 @@
 				A38E036C15DC317000537E55 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
